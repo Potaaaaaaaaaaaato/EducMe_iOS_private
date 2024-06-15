@@ -1,0 +1,853 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A19604F2C0014A50014F4D1 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A19604E2C0014A50014F4D1 /* UserSettings.swift */; };
+		6A1960522C0014CE0014F4D1 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1960512C0014CE0014F4D1 /* OnboardingView.swift */; };
+		6A1960542C0014E30014F4D1 /* AppearanceModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1960532C0014E30014F4D1 /* AppearanceModifier.swift */; };
+		6A44751B2C14C52C004E76D3 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A44751A2C14C52C004E76D3 /* TimelineView.swift */; };
+		6A9ED9712C00AB7C00F5EE5D /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9ED9702C00AB7C00F5EE5D /* SignUpView.swift */; };
+		6A9ED9742C02388700F5EE5D /* InstitutionMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9ED9732C02388700F5EE5D /* InstitutionMapView.swift */; };
+		6AA0F0DB2BFFBA6B003477E7 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA0F0DA2BFFBA6B003477E7 /* RegistrationView.swift */; };
+		6AD0CDE62BFE7AB7001F27C0 /* EducMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CDE52BFE7AB7001F27C0 /* EducMeApp.swift */; };
+		6AD0CDE82BFE7AB7001F27C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CDE72BFE7AB7001F27C0 /* ContentView.swift */; };
+		6AD0CDEA2BFE7AB8001F27C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AD0CDE92BFE7AB8001F27C0 /* Assets.xcassets */; };
+		6AD0CDED2BFE7AB8001F27C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AD0CDEC2BFE7AB8001F27C0 /* Preview Assets.xcassets */; };
+		6AD0CE032BFE7C23001F27C0 /* Institution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE022BFE7C23001F27C0 /* Institution.swift */; };
+		6AD0CE052BFE7C2C001F27C0 /* Histoire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE042BFE7C2C001F27C0 /* Histoire.swift */; };
+		6AD0CE072BFE7C3A001F27C0 /* PartiesPolitiques.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE062BFE7C3A001F27C0 /* PartiesPolitiques.swift */; };
+		6AD0CE092BFE7C45001F27C0 /* FAQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE082BFE7C45001F27C0 /* FAQ.swift */; };
+		6AD0CE0B2BFE7C4E001F27C0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE0A2BFE7C4E001F27C0 /* User.swift */; };
+		6AD0CE162BFE7CB8001F27C0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE152BFE7CB8001F27C0 /* MainView.swift */; };
+		6AD0CE182BFE7CCA001F27C0 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE172BFE7CCA001F27C0 /* TabBarView.swift */; };
+		6AD0CE1A2BFE7CDB001F27C0 /* InstitutionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE192BFE7CDB001F27C0 /* InstitutionsListView.swift */; };
+		6AD0CE1C2BFE7CEC001F27C0 /* InstitutionsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE1B2BFE7CEC001F27C0 /* InstitutionsDetailView.swift */; };
+		6AD0CE1E2BFE7D0A001F27C0 /* HistoireListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE1D2BFE7D0A001F27C0 /* HistoireListView.swift */; };
+		6AD0CE202BFE7D18001F27C0 /* HistoireDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE1F2BFE7D18001F27C0 /* HistoireDetailView.swift */; };
+		6AD0CE222BFE7D27001F27C0 /* PartiesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE212BFE7D27001F27C0 /* PartiesListView.swift */; };
+		6AD0CE242BFE7D33001F27C0 /* PartiesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE232BFE7D33001F27C0 /* PartiesDetailView.swift */; };
+		6AD0CE262BFE7D41001F27C0 /* FAQListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE252BFE7D41001F27C0 /* FAQListView.swift */; };
+		6AD0CE282BFE7D49001F27C0 /* FAQDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE272BFE7D49001F27C0 /* FAQDetailView.swift */; };
+		6AD0CE2A2BFE7D5F001F27C0 /* EngagementCiviqueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE292BFE7D5F001F27C0 /* EngagementCiviqueView.swift */; };
+		6AD0CE2C2BFE7D6A001F27C0 /* ParticiperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE2B2BFE7D6A001F27C0 /* ParticiperView.swift */; };
+		6AD0CE2E2BFE7D80001F27C0 /* RechercheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE2D2BFE7D80001F27C0 /* RechercheView.swift */; };
+		6AD0CE302BFE7D91001F27C0 /* ResultatRechercheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE2F2BFE7D91001F27C0 /* ResultatRechercheView.swift */; };
+		6AD0CE322BFE7D9C001F27C0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE312BFE7D9C001F27C0 /* SettingsView.swift */; };
+		6AD0CE342BFE7DAC001F27C0 /* LanguageSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE332BFE7DAC001F27C0 /* LanguageSelectionView.swift */; };
+		6AD0CE3D2BFF69FA001F27C0 /* InstitutionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE3C2BFF69FA001F27C0 /* InstitutionsViewModel.swift */; };
+		6AD0CE3F2BFF6A02001F27C0 /* InstitutionDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE3E2BFF6A02001F27C0 /* InstitutionDetailViewModel.swift */; };
+		6AD0CE412BFF6A0D001F27C0 /* HistoireViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE402BFF6A0D001F27C0 /* HistoireViewModel.swift */; };
+		6AD0CE432BFF6A24001F27C0 /* HistoireDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE422BFF6A24001F27C0 /* HistoireDetailViewModel.swift */; };
+		6AD0CE452BFF6A4C001F27C0 /* PartiesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE442BFF6A4C001F27C0 /* PartiesViewModel.swift */; };
+		6AD0CE472BFF6A5C001F27C0 /* PartieDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE462BFF6A5C001F27C0 /* PartieDetailViewModel.swift */; };
+		6AD0CE492BFF6A67001F27C0 /* FAQViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE482BFF6A67001F27C0 /* FAQViewModel.swift */; };
+		6AD0CE4B2BFF6A78001F27C0 /* FAQDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE4A2BFF6A78001F27C0 /* FAQDetailViewModel.swift */; };
+		6AD0CE4D2BFF6A85001F27C0 /* EngagementCiviqueViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE4C2BFF6A85001F27C0 /* EngagementCiviqueViewModel.swift */; };
+		6AD0CE4F2BFF6A95001F27C0 /* ParticiperViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE4E2BFF6A95001F27C0 /* ParticiperViewModel.swift */; };
+		6AD0CE512BFF6AA8001F27C0 /* RechercheViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE502BFF6AA8001F27C0 /* RechercheViewModel.swift */; };
+		6AD0CE532BFF6AB7001F27C0 /* ResultatRechercheViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE522BFF6AB7001F27C0 /* ResultatRechercheViewModel.swift */; };
+		6AD0CE552BFF6AD4001F27C0 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE542BFF6AD4001F27C0 /* SettingsViewModel.swift */; };
+		6AD0CE572BFF6ADF001F27C0 /* LanguageSelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE562BFF6ADF001F27C0 /* LanguageSelectionViewModel.swift */; };
+		6AD0CE592BFF6AFD001F27C0 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE582BFF6AFD001F27C0 /* APIService.swift */; };
+		6AD0CE5B2BFF6B08001F27C0 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE5A2BFF6B08001F27C0 /* DataService.swift */; };
+		6AD0CE5D2BFF6B13001F27C0 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE5C2BFF6B13001F27C0 /* UserService.swift */; };
+		6AD0CE5F2BFF6B1C001F27C0 /* SyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE5E2BFF6B1C001F27C0 /* SyncService.swift */; };
+		6AD0CE612BFF6B37001F27C0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AD0CE602BFF6B37001F27C0 /* Localizable.strings */; };
+		6AD0CE662BFF6B9D001F27C0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE652BFF6B9D001F27C0 /* Constants.swift */; };
+		6AD0CE682BFF6BA5001F27C0 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE672BFF6BA5001F27C0 /* Helpers.swift */; };
+		6AD0CE6A2BFF6BB9001F27C0 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE692BFF6BB9001F27C0 /* String+Extensions.swift */; };
+		6AD0CE6C2BFF6BCB001F27C0 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE6B2BFF6BCB001F27C0 /* Date+Extensions.swift */; };
+		6AD0CE6E2BFF6BD6001F27C0 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE6D2BFF6BD6001F27C0 /* View+Extensions.swift */; };
+		6AD0CE722BFF6C10001F27C0 /* ModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE712BFF6C10001F27C0 /* ModelsTests.swift */; };
+		6AD0CE742BFF6C1E001F27C0 /* ViewModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE732BFF6C1E001F27C0 /* ViewModelsTests.swift */; };
+		6AD0CE762BFF6C2A001F27C0 /* ServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE752BFF6C2A001F27C0 /* ServicesTests.swift */; };
+		6AD0CE792BFF8476001F27C0 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CE782BFF8476001F27C0 /* SampleData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A19604E2C0014A50014F4D1 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		6A1960512C0014CE0014F4D1 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		6A1960532C0014E30014F4D1 /* AppearanceModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceModifier.swift; sourceTree = "<group>"; };
+		6A44751A2C14C52C004E76D3 /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		6A9ED9702C00AB7C00F5EE5D /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		6A9ED9732C02388700F5EE5D /* InstitutionMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstitutionMapView.swift; sourceTree = "<group>"; };
+		6AA0F0DA2BFFBA6B003477E7 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		6AD0CDE22BFE7AB7001F27C0 /* EducMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EducMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD0CDE52BFE7AB7001F27C0 /* EducMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducMeApp.swift; sourceTree = "<group>"; };
+		6AD0CDE72BFE7AB7001F27C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6AD0CDE92BFE7AB8001F27C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AD0CDEC2BFE7AB8001F27C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6AD0CE022BFE7C23001F27C0 /* Institution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Institution.swift; sourceTree = "<group>"; };
+		6AD0CE042BFE7C2C001F27C0 /* Histoire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Histoire.swift; sourceTree = "<group>"; };
+		6AD0CE062BFE7C3A001F27C0 /* PartiesPolitiques.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartiesPolitiques.swift; sourceTree = "<group>"; };
+		6AD0CE082BFE7C45001F27C0 /* FAQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQ.swift; sourceTree = "<group>"; };
+		6AD0CE0A2BFE7C4E001F27C0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6AD0CE152BFE7CB8001F27C0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		6AD0CE172BFE7CCA001F27C0 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		6AD0CE192BFE7CDB001F27C0 /* InstitutionsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstitutionsListView.swift; sourceTree = "<group>"; };
+		6AD0CE1B2BFE7CEC001F27C0 /* InstitutionsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstitutionsDetailView.swift; sourceTree = "<group>"; };
+		6AD0CE1D2BFE7D0A001F27C0 /* HistoireListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoireListView.swift; sourceTree = "<group>"; };
+		6AD0CE1F2BFE7D18001F27C0 /* HistoireDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoireDetailView.swift; sourceTree = "<group>"; };
+		6AD0CE212BFE7D27001F27C0 /* PartiesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartiesListView.swift; sourceTree = "<group>"; };
+		6AD0CE232BFE7D33001F27C0 /* PartiesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartiesDetailView.swift; sourceTree = "<group>"; };
+		6AD0CE252BFE7D41001F27C0 /* FAQListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQListView.swift; sourceTree = "<group>"; };
+		6AD0CE272BFE7D49001F27C0 /* FAQDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQDetailView.swift; sourceTree = "<group>"; };
+		6AD0CE292BFE7D5F001F27C0 /* EngagementCiviqueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngagementCiviqueView.swift; sourceTree = "<group>"; };
+		6AD0CE2B2BFE7D6A001F27C0 /* ParticiperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticiperView.swift; sourceTree = "<group>"; };
+		6AD0CE2D2BFE7D80001F27C0 /* RechercheView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RechercheView.swift; sourceTree = "<group>"; };
+		6AD0CE2F2BFE7D91001F27C0 /* ResultatRechercheView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultatRechercheView.swift; sourceTree = "<group>"; };
+		6AD0CE312BFE7D9C001F27C0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6AD0CE332BFE7DAC001F27C0 /* LanguageSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSelectionView.swift; sourceTree = "<group>"; };
+		6AD0CE3C2BFF69FA001F27C0 /* InstitutionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstitutionsViewModel.swift; sourceTree = "<group>"; };
+		6AD0CE3E2BFF6A02001F27C0 /* InstitutionDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstitutionDetailViewModel.swift; sourceTree = "<group>"; };
+		6AD0CE402BFF6A0D001F27C0 /* HistoireViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoireViewModel.swift; sourceTree = "<group>"; };
+		6AD0CE422BFF6A24001F27C0 /* HistoireDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoireDetailViewModel.swift; sourceTree = "<group>"; };
+		6AD0CE442BFF6A4C001F27C0 /* PartiesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartiesViewModel.swift; sourceTree = "<group>"; };
+		6AD0CE462BFF6A5C001F27C0 /* PartieDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartieDetailViewModel.swift; sourceTree = "<group>"; };
+		6AD0CE482BFF6A67001F27C0 /* FAQViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQViewModel.swift; sourceTree = "<group>"; };
+		6AD0CE4A2BFF6A78001F27C0 /* FAQDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQDetailViewModel.swift; sourceTree = "<group>"; };
+		6AD0CE4C2BFF6A85001F27C0 /* EngagementCiviqueViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngagementCiviqueViewModel.swift; sourceTree = "<group>"; };
+		6AD0CE4E2BFF6A95001F27C0 /* ParticiperViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticiperViewModel.swift; sourceTree = "<group>"; };
+		6AD0CE502BFF6AA8001F27C0 /* RechercheViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RechercheViewModel.swift; sourceTree = "<group>"; };
+		6AD0CE522BFF6AB7001F27C0 /* ResultatRechercheViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultatRechercheViewModel.swift; sourceTree = "<group>"; };
+		6AD0CE542BFF6AD4001F27C0 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		6AD0CE562BFF6ADF001F27C0 /* LanguageSelectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSelectionViewModel.swift; sourceTree = "<group>"; };
+		6AD0CE582BFF6AFD001F27C0 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		6AD0CE5A2BFF6B08001F27C0 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		6AD0CE5C2BFF6B13001F27C0 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		6AD0CE5E2BFF6B1C001F27C0 /* SyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncService.swift; sourceTree = "<group>"; };
+		6AD0CE602BFF6B37001F27C0 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		6AD0CE652BFF6B9D001F27C0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6AD0CE672BFF6BA5001F27C0 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		6AD0CE692BFF6BB9001F27C0 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		6AD0CE6B2BFF6BCB001F27C0 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		6AD0CE6D2BFF6BD6001F27C0 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		6AD0CE712BFF6C10001F27C0 /* ModelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsTests.swift; sourceTree = "<group>"; };
+		6AD0CE732BFF6C1E001F27C0 /* ViewModelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelsTests.swift; sourceTree = "<group>"; };
+		6AD0CE752BFF6C2A001F27C0 /* ServicesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTests.swift; sourceTree = "<group>"; };
+		6AD0CE772BFF6C66001F27C0 /* EducMe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EducMe.entitlements; sourceTree = "<group>"; };
+		6AD0CE782BFF8476001F27C0 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AD0CDDF2BFE7AB7001F27C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A1960502C0014B50014F4D1 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				6A1960512C0014CE0014F4D1 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		6A4475192C14C516004E76D3 /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				6A44751A2C14C52C004E76D3 /* TimelineView.swift */,
+			);
+			path = Timeline;
+			sourceTree = "<group>";
+		};
+		6A9ED9722C02386D00F5EE5D /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				6A9ED9732C02388700F5EE5D /* InstitutionMapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		6AD0CDD92BFE7AB7001F27C0 = {
+			isa = PBXGroup;
+			children = (
+				6AD0CDE42BFE7AB7001F27C0 /* EducMe */,
+				6AD0CDE32BFE7AB7001F27C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AD0CDE32BFE7AB7001F27C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CDE22BFE7AB7001F27C0 /* EducMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AD0CDE42BFE7AB7001F27C0 /* EducMe */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CDFC2BFE7B9D001F27C0 /* Supporting Files */,
+				6AD0CDFB2BFE7B91001F27C0 /* Tests */,
+				6AD0CDFA2BFE7B85001F27C0 /* Utilities */,
+				6AD0CDF92BFE7B5D001F27C0 /* Resources */,
+				6AD0CDF82BFE7B47001F27C0 /* Services */,
+				6AD0CDF72BFE7B3B001F27C0 /* ViewModels */,
+				6AD0CDF62BFE7B2D001F27C0 /* Views */,
+				6AD0CDF52BFE7B23001F27C0 /* Models */,
+				6AD0CDF32BFE7AFC001F27C0 /* Assets */,
+				6AD0CDE52BFE7AB7001F27C0 /* EducMeApp.swift */,
+				6AD0CDE72BFE7AB7001F27C0 /* ContentView.swift */,
+				6AD0CDE92BFE7AB8001F27C0 /* Assets.xcassets */,
+				6AD0CDEB2BFE7AB8001F27C0 /* Preview Content */,
+			);
+			path = EducMe;
+			sourceTree = "<group>";
+		};
+		6AD0CDEB2BFE7AB8001F27C0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CDEC2BFE7AB8001F27C0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6AD0CDF32BFE7AFC001F27C0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CE002BFE7BE7001F27C0 /* Data */,
+				6AD0CDFF2BFE7BCB001F27C0 /* LaunchScreen */,
+				6AD0CDFE2BFE7BC4001F27C0 /* Icons */,
+				6AD0CDFD2BFE7BBE001F27C0 /* Images */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		6AD0CDF52BFE7B23001F27C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CE022BFE7C23001F27C0 /* Institution.swift */,
+				6AD0CE042BFE7C2C001F27C0 /* Histoire.swift */,
+				6AD0CE062BFE7C3A001F27C0 /* PartiesPolitiques.swift */,
+				6AD0CE082BFE7C45001F27C0 /* FAQ.swift */,
+				6AD0CE0A2BFE7C4E001F27C0 /* User.swift */,
+				6A19604E2C0014A50014F4D1 /* UserSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6AD0CDF62BFE7B2D001F27C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6A4475192C14C516004E76D3 /* Timeline */,
+				6A9ED9722C02386D00F5EE5D /* Map */,
+				6A1960502C0014B50014F4D1 /* Onboarding */,
+				6AD0CE142BFE7CA0001F27C0 /* Settings */,
+				6AD0CE132BFE7C99001F27C0 /* Recherche */,
+				6AD0CE122BFE7C87001F27C0 /* EngagementCivique */,
+				6AD0CE102BFE7C77001F27C0 /* FAQ */,
+				6AD0CE0F2BFE7C6E001F27C0 /* PartiesPolitiques */,
+				6AD0CE0E2BFE7C68001F27C0 /* Histoire */,
+				6AD0CE0D2BFE7C5F001F27C0 /* Institutions */,
+				6AD0CE0C2BFE7C5A001F27C0 /* Main */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6AD0CDF72BFE7B3B001F27C0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CE3B2BFF69C5001F27C0 /* Settings */,
+				6AD0CE3A2BFF69BA001F27C0 /* Recherche */,
+				6AD0CE392BFF69A9001F27C0 /* EngagementCivique */,
+				6AD0CE382BFF69A0001F27C0 /* FAQ */,
+				6AD0CE372BFF6995001F27C0 /* PartiesPolitiques */,
+				6AD0CE362BFF698E001F27C0 /* Histoire */,
+				6AD0CE352BFF6979001F27C0 /* Institutions */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6AD0CDF82BFE7B47001F27C0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CE582BFF6AFD001F27C0 /* APIService.swift */,
+				6AD0CE5A2BFF6B08001F27C0 /* DataService.swift */,
+				6AD0CE5C2BFF6B13001F27C0 /* UserService.swift */,
+				6AD0CE5E2BFF6B1C001F27C0 /* SyncService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6AD0CDF92BFE7B5D001F27C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CE602BFF6B37001F27C0 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6AD0CDFA2BFE7B85001F27C0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CE642BFF6B8A001F27C0 /* Extensions */,
+				6AD0CE652BFF6B9D001F27C0 /* Constants.swift */,
+				6AD0CE672BFF6BA5001F27C0 /* Helpers.swift */,
+				6A1960532C0014E30014F4D1 /* AppearanceModifier.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		6AD0CDFB2BFE7B91001F27C0 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CE702BFF6BF5001F27C0 /* UITests */,
+				6AD0CE6F2BFF6BE3001F27C0 /* UnitTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6AD0CDFC2BFE7B9D001F27C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CE772BFF6C66001F27C0 /* EducMe.entitlements */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6AD0CDFD2BFE7BBE001F27C0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		6AD0CDFE2BFE7BC4001F27C0 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		6AD0CDFF2BFE7BCB001F27C0 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		6AD0CE002BFE7BE7001F27C0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CE782BFF8476001F27C0 /* SampleData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6AD0CE0C2BFE7C5A001F27C0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CE152BFE7CB8001F27C0 /* MainView.swift */,
+				6AD0CE172BFE7CCA001F27C0 /* TabBarView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		6AD0CE0D2BFE7C5F001F27C0 /* Institutions */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CE192BFE7CDB001F27C0 /* InstitutionsListView.swift */,
+				6AD0CE1B2BFE7CEC001F27C0 /* InstitutionsDetailView.swift */,
+			);
+			path = Institutions;
+			sourceTree = "<group>";
+		};
+		6AD0CE0E2BFE7C68001F27C0 /* Histoire */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CE1D2BFE7D0A001F27C0 /* HistoireListView.swift */,
+				6AD0CE1F2BFE7D18001F27C0 /* HistoireDetailView.swift */,
+			);
+			path = Histoire;
+			sourceTree = "<group>";
+		};
+		6AD0CE0F2BFE7C6E001F27C0 /* PartiesPolitiques */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CE212BFE7D27001F27C0 /* PartiesListView.swift */,
+				6AD0CE232BFE7D33001F27C0 /* PartiesDetailView.swift */,
+			);
+			path = PartiesPolitiques;
+			sourceTree = "<group>";
+		};
+		6AD0CE102BFE7C77001F27C0 /* FAQ */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CE252BFE7D41001F27C0 /* FAQListView.swift */,
+				6AD0CE272BFE7D49001F27C0 /* FAQDetailView.swift */,
+			);
+			path = FAQ;
+			sourceTree = "<group>";
+		};
+		6AD0CE122BFE7C87001F27C0 /* EngagementCivique */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CE292BFE7D5F001F27C0 /* EngagementCiviqueView.swift */,
+				6AD0CE2B2BFE7D6A001F27C0 /* ParticiperView.swift */,
+			);
+			path = EngagementCivique;
+			sourceTree = "<group>";
+		};
+		6AD0CE132BFE7C99001F27C0 /* Recherche */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CE2D2BFE7D80001F27C0 /* RechercheView.swift */,
+				6AD0CE2F2BFE7D91001F27C0 /* ResultatRechercheView.swift */,
+			);
+			path = Recherche;
+			sourceTree = "<group>";
+		};
+		6AD0CE142BFE7CA0001F27C0 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CE312BFE7D9C001F27C0 /* SettingsView.swift */,
+				6AD0CE332BFE7DAC001F27C0 /* LanguageSelectionView.swift */,
+				6AA0F0DA2BFFBA6B003477E7 /* RegistrationView.swift */,
+				6A9ED9702C00AB7C00F5EE5D /* SignUpView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		6AD0CE352BFF6979001F27C0 /* Institutions */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CE3C2BFF69FA001F27C0 /* InstitutionsViewModel.swift */,
+				6AD0CE3E2BFF6A02001F27C0 /* InstitutionDetailViewModel.swift */,
+			);
+			path = Institutions;
+			sourceTree = "<group>";
+		};
+		6AD0CE362BFF698E001F27C0 /* Histoire */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CE402BFF6A0D001F27C0 /* HistoireViewModel.swift */,
+				6AD0CE422BFF6A24001F27C0 /* HistoireDetailViewModel.swift */,
+			);
+			path = Histoire;
+			sourceTree = "<group>";
+		};
+		6AD0CE372BFF6995001F27C0 /* PartiesPolitiques */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CE442BFF6A4C001F27C0 /* PartiesViewModel.swift */,
+				6AD0CE462BFF6A5C001F27C0 /* PartieDetailViewModel.swift */,
+			);
+			path = PartiesPolitiques;
+			sourceTree = "<group>";
+		};
+		6AD0CE382BFF69A0001F27C0 /* FAQ */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CE482BFF6A67001F27C0 /* FAQViewModel.swift */,
+				6AD0CE4A2BFF6A78001F27C0 /* FAQDetailViewModel.swift */,
+			);
+			path = FAQ;
+			sourceTree = "<group>";
+		};
+		6AD0CE392BFF69A9001F27C0 /* EngagementCivique */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CE4C2BFF6A85001F27C0 /* EngagementCiviqueViewModel.swift */,
+				6AD0CE4E2BFF6A95001F27C0 /* ParticiperViewModel.swift */,
+			);
+			path = EngagementCivique;
+			sourceTree = "<group>";
+		};
+		6AD0CE3A2BFF69BA001F27C0 /* Recherche */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CE502BFF6AA8001F27C0 /* RechercheViewModel.swift */,
+				6AD0CE522BFF6AB7001F27C0 /* ResultatRechercheViewModel.swift */,
+			);
+			path = Recherche;
+			sourceTree = "<group>";
+		};
+		6AD0CE3B2BFF69C5001F27C0 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CE542BFF6AD4001F27C0 /* SettingsViewModel.swift */,
+				6AD0CE562BFF6ADF001F27C0 /* LanguageSelectionViewModel.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		6AD0CE642BFF6B8A001F27C0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CE692BFF6BB9001F27C0 /* String+Extensions.swift */,
+				6AD0CE6B2BFF6BCB001F27C0 /* Date+Extensions.swift */,
+				6AD0CE6D2BFF6BD6001F27C0 /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6AD0CE6F2BFF6BE3001F27C0 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CE712BFF6C10001F27C0 /* ModelsTests.swift */,
+				6AD0CE732BFF6C1E001F27C0 /* ViewModelsTests.swift */,
+				6AD0CE752BFF6C2A001F27C0 /* ServicesTests.swift */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		6AD0CE702BFF6BF5001F27C0 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AD0CDE12BFE7AB7001F27C0 /* EducMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AD0CDF02BFE7AB8001F27C0 /* Build configuration list for PBXNativeTarget "EducMe" */;
+			buildPhases = (
+				6AD0CDDE2BFE7AB7001F27C0 /* Sources */,
+				6AD0CDDF2BFE7AB7001F27C0 /* Frameworks */,
+				6AD0CDE02BFE7AB7001F27C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EducMe;
+			productName = EducMe;
+			productReference = 6AD0CDE22BFE7AB7001F27C0 /* EducMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AD0CDDA2BFE7AB7001F27C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					6AD0CDE12BFE7AB7001F27C0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 6AD0CDDD2BFE7AB7001F27C0 /* Build configuration list for PBXProject "EducMe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AD0CDD92BFE7AB7001F27C0;
+			productRefGroup = 6AD0CDE32BFE7AB7001F27C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AD0CDE12BFE7AB7001F27C0 /* EducMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AD0CDE02BFE7AB7001F27C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD0CDED2BFE7AB8001F27C0 /* Preview Assets.xcassets in Resources */,
+				6AD0CE612BFF6B37001F27C0 /* Localizable.strings in Resources */,
+				6AD0CDEA2BFE7AB8001F27C0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AD0CDDE2BFE7AB7001F27C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD0CE052BFE7C2C001F27C0 /* Histoire.swift in Sources */,
+				6AD0CE412BFF6A0D001F27C0 /* HistoireViewModel.swift in Sources */,
+				6AD0CE722BFF6C10001F27C0 /* ModelsTests.swift in Sources */,
+				6AD0CE342BFE7DAC001F27C0 /* LanguageSelectionView.swift in Sources */,
+				6AD0CE242BFE7D33001F27C0 /* PartiesDetailView.swift in Sources */,
+				6AD0CE182BFE7CCA001F27C0 /* TabBarView.swift in Sources */,
+				6A9ED9742C02388700F5EE5D /* InstitutionMapView.swift in Sources */,
+				6AD0CE452BFF6A4C001F27C0 /* PartiesViewModel.swift in Sources */,
+				6AD0CE2C2BFE7D6A001F27C0 /* ParticiperView.swift in Sources */,
+				6AD0CE532BFF6AB7001F27C0 /* ResultatRechercheViewModel.swift in Sources */,
+				6AD0CE6E2BFF6BD6001F27C0 /* View+Extensions.swift in Sources */,
+				6AD0CE762BFF6C2A001F27C0 /* ServicesTests.swift in Sources */,
+				6AD0CE4B2BFF6A78001F27C0 /* FAQDetailViewModel.swift in Sources */,
+				6A44751B2C14C52C004E76D3 /* TimelineView.swift in Sources */,
+				6A1960542C0014E30014F4D1 /* AppearanceModifier.swift in Sources */,
+				6AD0CE162BFE7CB8001F27C0 /* MainView.swift in Sources */,
+				6AD0CE3F2BFF6A02001F27C0 /* InstitutionDetailViewModel.swift in Sources */,
+				6AD0CE662BFF6B9D001F27C0 /* Constants.swift in Sources */,
+				6A9ED9712C00AB7C00F5EE5D /* SignUpView.swift in Sources */,
+				6AD0CE6A2BFF6BB9001F27C0 /* String+Extensions.swift in Sources */,
+				6AD0CE492BFF6A67001F27C0 /* FAQViewModel.swift in Sources */,
+				6A19604F2C0014A50014F4D1 /* UserSettings.swift in Sources */,
+				6AD0CE472BFF6A5C001F27C0 /* PartieDetailViewModel.swift in Sources */,
+				6AD0CE5F2BFF6B1C001F27C0 /* SyncService.swift in Sources */,
+				6AD0CE742BFF6C1E001F27C0 /* ViewModelsTests.swift in Sources */,
+				6AD0CE222BFE7D27001F27C0 /* PartiesListView.swift in Sources */,
+				6AD0CE202BFE7D18001F27C0 /* HistoireDetailView.swift in Sources */,
+				6AD0CE682BFF6BA5001F27C0 /* Helpers.swift in Sources */,
+				6AD0CE072BFE7C3A001F27C0 /* PartiesPolitiques.swift in Sources */,
+				6AD0CE092BFE7C45001F27C0 /* FAQ.swift in Sources */,
+				6AD0CE4D2BFF6A85001F27C0 /* EngagementCiviqueViewModel.swift in Sources */,
+				6AD0CE302BFE7D91001F27C0 /* ResultatRechercheView.swift in Sources */,
+				6AD0CE282BFE7D49001F27C0 /* FAQDetailView.swift in Sources */,
+				6AD0CE592BFF6AFD001F27C0 /* APIService.swift in Sources */,
+				6AD0CE4F2BFF6A95001F27C0 /* ParticiperViewModel.swift in Sources */,
+				6AD0CE432BFF6A24001F27C0 /* HistoireDetailViewModel.swift in Sources */,
+				6AD0CE032BFE7C23001F27C0 /* Institution.swift in Sources */,
+				6AD0CDE82BFE7AB7001F27C0 /* ContentView.swift in Sources */,
+				6AD0CDE62BFE7AB7001F27C0 /* EducMeApp.swift in Sources */,
+				6AD0CE512BFF6AA8001F27C0 /* RechercheViewModel.swift in Sources */,
+				6AD0CE5B2BFF6B08001F27C0 /* DataService.swift in Sources */,
+				6AD0CE262BFE7D41001F27C0 /* FAQListView.swift in Sources */,
+				6AD0CE1C2BFE7CEC001F27C0 /* InstitutionsDetailView.swift in Sources */,
+				6A1960522C0014CE0014F4D1 /* OnboardingView.swift in Sources */,
+				6AD0CE2A2BFE7D5F001F27C0 /* EngagementCiviqueView.swift in Sources */,
+				6AA0F0DB2BFFBA6B003477E7 /* RegistrationView.swift in Sources */,
+				6AD0CE0B2BFE7C4E001F27C0 /* User.swift in Sources */,
+				6AD0CE1A2BFE7CDB001F27C0 /* InstitutionsListView.swift in Sources */,
+				6AD0CE2E2BFE7D80001F27C0 /* RechercheView.swift in Sources */,
+				6AD0CE6C2BFF6BCB001F27C0 /* Date+Extensions.swift in Sources */,
+				6AD0CE792BFF8476001F27C0 /* SampleData.swift in Sources */,
+				6AD0CE1E2BFE7D0A001F27C0 /* HistoireListView.swift in Sources */,
+				6AD0CE322BFE7D9C001F27C0 /* SettingsView.swift in Sources */,
+				6AD0CE5D2BFF6B13001F27C0 /* UserService.swift in Sources */,
+				6AD0CE3D2BFF69FA001F27C0 /* InstitutionsViewModel.swift in Sources */,
+				6AD0CE572BFF6ADF001F27C0 /* LanguageSelectionViewModel.swift in Sources */,
+				6AD0CE552BFF6AD4001F27C0 /* SettingsViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6AD0CDEE2BFE7AB8001F27C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6AD0CDEF2BFE7AB8001F27C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AD0CDF12BFE7AB8001F27C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EducMe/Preview Content\"";
+				DEVELOPMENT_TEAM = 4CR634BF87;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "EducMe-v1.1-beta";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.educmeapp.EducMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AD0CDF22BFE7AB8001F27C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EducMe/Preview Content\"";
+				DEVELOPMENT_TEAM = 4CR634BF87;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "EducMe-v1.1-beta";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.educmeapp.EducMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AD0CDDD2BFE7AB7001F27C0 /* Build configuration list for PBXProject "EducMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD0CDEE2BFE7AB8001F27C0 /* Debug */,
+				6AD0CDEF2BFE7AB8001F27C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AD0CDF02BFE7AB8001F27C0 /* Build configuration list for PBXNativeTarget "EducMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD0CDF12BFE7AB8001F27C0 /* Debug */,
+				6AD0CDF22BFE7AB8001F27C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AD0CDDA2BFE7AB7001F27C0 /* Project object */;
+}
